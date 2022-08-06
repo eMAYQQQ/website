@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(197, 218, 218);
+}
+/*{
+    border: 1px solid rgb(11, 8, 11);
+}*/
+.one{
+    border-style: dotted;
+    border-color: rgb(24, 210, 27);
+    border-width: 2px;
+}
+.flex{
+    display: flex;
+}
+.flex1{
+    flex:1;
+}
+.blockst1{
+    background-color: rgb(177, 226, 207);
+    text-align: center;
+    text-shadow: rgb(0, 0, 0);
+    font-size: large;
+    padding: 40px;
+}
+.blockst2{
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 15px;
+    line-height: 1.7;
+}
+.column{
+    flex-direction: column;
+}
+/* 导航条 */
+.daoHang {
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    font-size: 14px;
+    color: #666;
+}
+.bgwhite{
+    background-color: aliceblue;
+}
+.marginb{
+    margin-bottom: 5px;
+}
+.margint{
+    margin-top: 15px;
+}
+.marginl{
+    margin-left: 5px;
+}
+.marginr{
+    margin-right: 5px;
+}
